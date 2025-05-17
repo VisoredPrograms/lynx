@@ -1,0 +1,35 @@
+{
+  "name": "discord.ts",
+  "version": "1.0.0",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VisoredPrograms/discord.ts.git"
+  },
+  "main": "App.ts",
+  "bugs": {
+    "url": "https://github.com/VisoredPrograms/discord.ts/issues"
+  },
+  "description": "",
+  "engines": {
+    "node": "v22.14.0"
+  },
+  "homepage": "https://github.com/VisoredPrograms/discord.ts#readme",
+  "keywords": [],
+  "license": "ISC",
+  "scripts": {
+    "start": "node --experimental-transform-types ./src/App.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "dependencies": {
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.2"
+  }
+}
